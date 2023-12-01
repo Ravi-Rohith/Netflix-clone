@@ -1,8 +1,8 @@
 "use client"
 import { useCallback, useState } from "react";
 import axios from "axios";
-import Input from "@/app/components/input";
-import Button from "@/app/components/button";
+import Input from "@/components/input";
+import Button from "@/components/button";
 
 const Auth = () => {
     const [name, setname] = useState()

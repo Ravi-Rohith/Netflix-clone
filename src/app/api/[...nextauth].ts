@@ -3,7 +3,7 @@ import Credentials from "next-auth/providers/credentials"
 // import { type } from "os";
 import { compare } from 'bcrypt'
 
-import  prismadb  from '../../../../lib/prismadb';
+import  prismadb  from '../../../lib/prismadb';
 
 
 export default NextAuth({
