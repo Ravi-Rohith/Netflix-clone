@@ -44,10 +44,10 @@ const Auth = () => {
                 <div className="my-8 px-16 py-16 mt-2 lg:max-w-md self-center lg:w-2/5 rounded-md bg-black bg-opacity-80">
                         <h2 className="text-white font-bold text-4xl mb-8">{variant == 'login' ? 'Login' : 'Sign up'}</h2>
                         <div className="flex flex-col items-center gap-4">
-                            <Input id="name" onchange={(ev: any) => setname(ev.target.value)} value={name} type="text" label={variant == 'login' ? 'Username or Email' : 'name'} />
+                            <Input id="name" onchange={(ev: any) => setname(ev.target.value)} value={name} type="text" label={variant == 'login' ? 'Username or Email' : 'Name'} />
 
                             {variant == 'Sign up' && (
-                                <Input id="email" onchange={(ev: any) => setemail(ev.target.value)} value={email} type="text" label="email" />    
+                                <Input id="email" onchange={(ev: any) => setemail(ev.target.value)} value={email} type="text" label="Email" />    
                             )}
                             <Input id="password" onchange={(ev: any)=>setpassword(ev.target.value)} value={password} type="password" label="Password" />
 
